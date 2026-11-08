@@ -8,11 +8,11 @@
 
 Turn a messy set of notes into a useful Markdown task list. Hermes should read a source file, create a new file, and preserve the source exactly.
 
-Use your existing Hermes setup in WSL2. No VS Code agent or new installation is needed. The Windows folder `C:\TinyHermesProjects` holds these exercise instructions; do the practice work inside your existing WSL2 repository, `~/projects/tiny-hermes-projects`.
+Use a terminal on the machine where Hermes runs. If Hermes is on a VPS, connect to that VPS and use a checkout of the exercise repository there. If Hermes runs in WSL2 or another local Linux environment, use the checkout in that environment.
 
 ## Prepare the case
 
-In your WSL2 terminal, run:
+From the machine running Hermes, enter your repository checkout and create the practice directory. If you cloned it elsewhere, substitute your checkout's path:
 
 ```bash
 cd ~/projects/tiny-hermes-projects
@@ -33,7 +33,9 @@ Tiny launch notes
 
 ## Give Hermes the job
 
-Write your own request. Include the source path and destination path, `practice/h02/tasks.md`, plus these requirements:
+Start an interactive conversation with `hermes chat`. Write your own request and include the full paths to `practice/h02/inbox.md` and `practice/h02/tasks.md` inside your checkout. Run `pwd` from the repository root to get the directory prefix. For example, if `pwd` prints `/home/hermes/projects/tiny-hermes-projects`, the source path is `/home/hermes/projects/tiny-hermes-projects/practice/h02/inbox.md`.
+
+Include these requirements:
 
 - Read the source file before producing the result.
 - Create a Markdown checklist with one item per distinct task.
@@ -66,4 +68,4 @@ Write two sentences: What did Hermes do well? What did you have to verify yourse
 
 **Stop after 45 minutes.** A clearly recorded limitation counts as useful progress.
 
-For a suggested prompt and expected output, open `solutions/H02-the-file-clerk-solution.md` after attempting the challenge.
+For a suggested prompt and example output, open `solutions/beginner/H02-the-file-clerk-solution.md` from the repository root after attempting the challenge.
