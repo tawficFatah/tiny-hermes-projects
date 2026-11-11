@@ -2,11 +2,13 @@
 
 Tiny Hermes Projects is a collection of short, hands-on exercises for learning [Hermes Agent](https://github.com/NousResearch/hermes-agent). Each exercise gives you a task, asks you to verify what Hermes actually did, and includes a separate worked solution you can read after your attempt.
 
+The writing style was inspired by Ken Youens-Clark's [*Tiny Python Projects*](https://www.manning.com/books/tiny-python-projects), published by Manning. The exercise text, examples, and solutions were written independently for this project.
+
 ## Before you start
 
 You’ll need a working Hermes installation, a configured model that responds in chat, and a checkout of this repository on the machine where Hermes runs. That can be your local Linux or WSL2 environment, or a VPS you connect to remotely. The beginner exercises assume setup is complete. We’ll decide later whether to add installation and setup exercises.
 
-If you need setup material, the author's setup drew on the [AI Agent Builders community on Skool](https://www.skool.com/ai-agent-builders).
+If you need setup material, the Hermes setup used for these exercises is based on Module 2 of [AI Agent Builders on Skool](https://www.skool.com/ai-agent-builders).
 
 ## Beginner exercises
 
@@ -22,8 +24,10 @@ Start with H01 and work through the three exercises in order. Read each challeng
 
 The beginner section has three exercises. Intermediate, advanced, and expert material will be developed and reviewed one section at a time.
 
-## Handing in exercise findings
+## Keeping your own exercise notes
 
-If you’re sharing your work through GitHub, use a checkout you can push to, such as your own fork. Commit your findings with the exercise ID in the commit message and share the commit or pull request link. Include the Hermes version you tested, what you observed, and any blockers. Review what you stage so your submission contains the material you intend to share.
+Fork this repository on GitHub and use your fork to keep your own exercise notes. Include the exercise ID, the Hermes version you tested, what you observed, and where you got stuck. Commit the notes you want to keep as a record of your progress.
+
+To follow new exercises as they are published, click **Watch** on the [original Tiny Hermes Projects repository](https://github.com/tawficFatah/tiny-hermes-projects) and choose the notifications you want.
 
 If you work on a VPS and keep a local copy, use the [Git workflow guide](GIT-WORKFLOW.md) to compare branches and commits, then sync the two checkouts.
