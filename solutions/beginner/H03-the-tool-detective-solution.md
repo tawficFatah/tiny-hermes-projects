@@ -9,6 +9,8 @@ Try the exercise before reading this file.
 3. “Create `practice/h03/receipt.md` containing the phrase you read and a sentence saying it came from the clue file. Report the saved path.”
 4. “Retrieve `https://example.com` now and report its page title and the tool used. If live retrieval is unavailable, say so instead of answering from memory.”
 
+If `https://example.com` returns a 404 or otherwise fails to load, use `https://www.iana.org/help/example-domains` and repeat the same check. The IANA page was used in the VPS exercise run. Look for a visible retrieval event to verify tool use.
+
 ## Evidence guide
 
 | Capability | Evidence for observed working | When evidence is insufficient |

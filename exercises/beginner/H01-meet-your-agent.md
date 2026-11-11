@@ -2,8 +2,8 @@
 
 **Level:** Beginner  
 **Timebox:** 20–30 minutes (maximum 45 minutes)  
-**Environment:** Existing Hermes installation on a VPS, Linux, or WSL2  
-**Status:** Draft — learner validation pending
+**Environment:** Existing Hermes installation on Linux\
+**Status:** Verified on a VPS with Hermes Agent v0.23.0 stable
 
 ## The challenge
 

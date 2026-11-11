@@ -14,7 +14,7 @@ Investigate three capabilities in your current Hermes session:
 
 For each capability, decide whether it is **observed working**, **reported unavailable**, or **not yet verified**. Tool availability depends on your session; you do not need all three capabilities to pass.
 
-Use your existing Hermes setup. No new VS Code agent, software installation, or configuration change is part of this exercise.
+Use your existing Hermes setup. The exercise requires no software installation or configuration changes.
 
 ## Prepare a private test clue
 
